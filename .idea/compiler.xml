@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.8">
+      <module name="PoweredUp_main" target="1.8" />
+      <module name="PoweredUp_test" target="1.8" />
       <module name="unofficial_frc_game_frame_main" target="1.8" />
       <module name="unofficial_frc_game_frame_test" target="1.8" />
     </bytecodeTargetLevel>

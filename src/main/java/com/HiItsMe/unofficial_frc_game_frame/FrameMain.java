@@ -11,7 +11,7 @@ import java.util.Map;
  * I assume this is the first class you're reading.
  * If not, it should be.
  * Because of that, I'll talk about the project here.
- * This is a top-down video game based on FIRST Robotics Challenge.
+ * This is a top-down video game based on FIRST Robotics Competition.
  * That's pretty much all there is to say.
  *
  * BTW, my commenting is absolutely terrible.

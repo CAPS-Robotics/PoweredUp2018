@@ -3,6 +3,7 @@ package com.HiItsMe.unofficial_frc_game_frame;
 import com.HiItsMe.unofficial_frc_game_frame.EventListeners.FRCKeyListener;
 import com.HiItsMe.unofficial_frc_game_frame.EventListeners.FRCMouseListener;
 
+import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
@@ -25,6 +26,11 @@ public class GUI extends Frame {
     public GraphicsConfiguration gc;
     public HashMap<String, Font> fonts = new HashMap<>();
     public GUI() {
+    	//Set icon
+        try {
+            setIconImage(ImageIO.read(new File("./src/main/resources/Images/icon.png")));
+        }
+        catch (Exception e) { e.printStackTrace(); }
         //Fullscreen and prep for constant redraw
         setIgnoreRepaint(true);
         setExtendedState(MAXIMIZED_BOTH);
@@ -77,7 +83,7 @@ public class GUI extends Frame {
             g2d.fillRect(0, 0, getWidth()-1, getHeight()-1);
             g2d.scale(scaleSize, scaleSize);
             FrameMain.screens.get(FrameMain.screen).draw();
-            graphics = buffer.getDrawGraphics();
+            try { graphics = buffer.getDrawGraphics(); } catch(IllegalStateException e) { /*Window is closing and I don't care*/ }
             graphics.drawImage(bi, (int)((getWidth()-(screenRatio[0]*scaleSize))/2), (int)((getHeight()-(screenRatio[1]*scaleSize))/2), null);
             if(!buffer.contentsLost()) {
                 buffer.show();

@@ -6,10 +6,10 @@ package com.HiItsMe.unofficial_frc_game_frame.Screens;
 public class Game extends FRCScreen {
     @Override
     public void init() {
-
+    
     }
     @Override
     public void draw() {
-
+    
     }
 }

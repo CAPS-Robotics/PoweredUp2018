@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unofficial_frc_game_frame.iml" filepath="$PROJECT_DIR$/.idea/modules/unofficial_frc_game_frame.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unofficial_frc_game_frame_main.iml" filepath="$PROJECT_DIR$/.idea/modules/unofficial_frc_game_frame_main.iml" group="unofficial_frc_game_frame" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unofficial_frc_game_frame_test.iml" filepath="$PROJECT_DIR$/.idea/modules/unofficial_frc_game_frame_test.iml" group="unofficial_frc_game_frame" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PoweredUp.iml" filepath="$PROJECT_DIR$/.idea/modules/PoweredUp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PoweredUp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PoweredUp_main.iml" group="PoweredUp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PoweredUp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/PoweredUp_test.iml" group="PoweredUp" />
     </modules>
   </component>
 </project>
